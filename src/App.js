@@ -8,7 +8,7 @@ const App = () => {
       <BrowserRouter>
         <Switch>
           <Route to="/" exact>
-            <Home/>
+            <Home />
           </Route>
         </Switch>
       </BrowserRouter>

@@ -1,0 +1,31 @@
+#home {
+    
+    & .bg-header:before {
+        content: "";
+        background-image: url("../" + $bgHeader);
+        background-repeat: no-repeat;
+        background-position: left top;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .left-bloc {
+
+        & .bg-left-bloc:before {
+            content: "";
+            background-image: url("../" + $bgBottomHeader);
+            background-repeat: no-repeat;
+            background-position: left top;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+    }
+}

@@ -1,0 +1,183 @@
+
+// .circle,
+// .circle2,
+// .circle2-1,
+// .circle2-2,
+// .circle2-3,
+// .circle2-4 {
+//     border-radius: 50%;
+// }
+
+// .circle2-4,
+// .circle2,
+// .circle2-1,
+// .circle2-2,
+// .circle2-3,
+.circle{
+    position: absolute;
+}
+
+.left-bloc,
+header,
+.circle,
+.little-round {
+    position: relative;
+}
+
+//----------  FLEX  ----------//
+
+.body,
+section,
+main,
+.bg-left-bloc,
+.bg-left-bloc h1,
+header,
+.name,
+.bg-header {
+    display: flex;
+}
+
+main {
+    flex-flow: row wrap;
+}
+
+.name {
+    align-items: flex-start;
+}
+
+.bg-left-bloc h1 {
+    align-items: center;
+}
+
+.bg-header {
+    justify-content: flex-end;
+}
+
+.body,
+.bg-left-bloc h1,
+.name {
+    justify-content: center;
+}
+
+.bg-left-bloc {
+    flex-direction: column;
+}
+
+.bg-header {
+    flex-direction: row;
+}
+
+
+
+//----------  WIDTH  ----------//
+
+.bloc-text,
+section,
+main,
+.bg-left-bloc,
+header,
+.bg-header {
+    width: 100%;
+}
+
+.bar,
+.circle {
+// .circle2,
+// .circle2-1,
+// .circle2-2,
+// .circle2-3,
+// .circle2-4 {
+    width: 300px;
+}
+
+.left-bloc {
+    width: 400px;
+}
+
+#home,
+header {
+    width: 1000px;
+}
+
+.little-round {
+    width: 50px;
+}
+
+//----------  HEIGHT  ----------//
+
+.bar1-1,
+#home,
+.left-bloc,
+.bg-left-bloc,
+.bg-header {
+    height: 100%;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.bar {
+    height: 18px;
+}
+
+.little-round {
+    height: 50px;
+}
+
+header {
+    height: 279px;
+}
+
+.circle,
+.circle2,
+.circle2-1,
+.circle2-2,
+.circle2-3,
+.circle2-4 {
+    height: 300px;
+}
+
+//----------  TEXT  ----------//
+
+.bg-left-bloc h1,
+.name {
+    text-transform: uppercase;
+}
+
+//----------    COLOR    ----------//
+
+.bg-left-bloc,
+.name {
+    color: $text-color-1;
+}
+
+//----------  BACKGROUND  ----------//
+//----------    COLOR    ----------//
+
+header {
+    background-color: transparent;
+}
+
+.left-bloc,
+.bg-left-bloc {
+    background-color: $bg-color-2;
+}
+
+.bar1-1,
+.bg-left-bloc h1 {
+    background-color: $bg-color-4;
+}
+
+.bar {
+    background-color: $bg-color-6;
+}
+
+//----------     BOX     ----------//
+
+.bloc-text,
+section,
+.bg-left-bloc,
+.left-bloc {
+    box-sizing: border-box;
+}

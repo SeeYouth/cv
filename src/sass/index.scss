@@ -1,5 +1,12 @@
 @import "./utils/variables",
+        "./utils/fonts",
+        "./utils/icon",
         "./utils/reset",
-        "./utils/settings";
+        "./utils/settings",
+        "./utils/title";
+
+@import "./components/anim-profil",
+        "./components/bloc-text",
+        "./components/header";
 
 @import "./layouts/home";
