@@ -26,7 +26,6 @@ header,
 
 //----------  FLEX  ----------//
 
-.bar1-1,
 .body,
 section,
 main,
@@ -46,7 +45,6 @@ main {
     align-items: flex-start;
 }
 
-.bar1-1,
 .bg-left-bloc h1 {
     align-items: center;
 }
@@ -82,13 +80,7 @@ header,
     width: 100%;
 }
 
-// .bar,
 .circle {
-// .circle2,
-// .circle2-1,
-// .circle2-2,
-// .circle2-3,
-// .circle2-4 {
     width: 300px;
 }
 
@@ -107,7 +99,6 @@ header {
 
 //----------  HEIGHT  ----------//
 
-.bar1-1,
 #home,
 .left-bloc,
 .bg-left-bloc,
@@ -117,10 +108,6 @@ header {
 
 #root {
     min-height: 100vh;
-}
-
-.bar {
-    height: 29px;
 }
 
 .little-round {
@@ -166,13 +153,8 @@ header {
     background-color: $bg-color-2;
 }
 
-.bar1-1,
 .bg-left-bloc h1 {
     background-color: $bg-color-4;
-}
-
-.bar {
-    background-color: $bg-color-6;
 }
 
 //----------     BOX     ----------//

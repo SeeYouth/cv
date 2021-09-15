@@ -22,5 +22,26 @@ $text-color-3: #4bacc6;
 //----------     WIDTH    ----------//
 
 $width-bar: (
+    'full': 100%,
     'windows': 90%,
-)
+);
+
+$bar: 
+    "textWindows" right $bg-color-4 $bg-color-6 90% 10%,
+    "textLinux" left $bg-color-6 $bg-color-4 70% 30%,
+    "textMacosx" left $bg-color-6 $bg-color-4 80% 20%,
+    "textPrinter" right $bg-color-4 $bg-color-6 50% 50%,
+    "textOpti" right $bg-color-4 $bg-color-6 98% 2%,
+    "textPreparation" right $bg-color-4 $bg-color-6 100% 0,
+    "textRemote" right $bg-color-4 $bg-color-6 90% 10%,
+    "textNetwork" right $bg-color-4 $bg-color-6 50% 50%,
+    "textNas" left $bg-color-6 $bg-color-4 60% 40%,
+    "textFreenas" left $bg-color-6 $bg-color-4 60% 40%,
+    "textHtml" right $bg-color-4 $bg-color-6 90% 10%,
+    "textSass" right $bg-color-4 $bg-color-6 95% 5%,
+    "textJs" right $bg-color-4 $bg-color-6 50% 50%,
+    "textVue" left $bg-color-6 $bg-color-4 80% 20%,
+    "textReact" left $bg-color-6 $bg-color-4 70% 30%,
+    "textApi" left $bg-color-6 $bg-color-4 60% 40%,
+    "textUserData" left $bg-color-6 $bg-color-4 60% 40%,
+    "textDataBase" left $bg-color-6 $bg-color-4 60% 40%;

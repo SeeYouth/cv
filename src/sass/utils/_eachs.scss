@@ -1,0 +1,33 @@
+@each $width, $number in $width-bar {
+    .width-#{$width} {
+        width: $number;
+    }
+}
+
+@each 
+    $name-bar,
+    $to,
+    $grad-color-1, 
+    $grad-color-2, 
+    $grad-width-1, 
+    $grad-width-2 
+    
+    in $bar {
+        .bar-#{$name-bar} {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            height: 29px;
+            margin: 15px 20px 0 20px;
+            background: 
+            linear-gradient(
+                to $to, 
+                $grad-color-1 $grad-width-1,
+                $grad-color-2 $grad-width-2
+            );
+
+            & .text-bar {
+                margin-left: 10px;
+            }
+        }
+    }
