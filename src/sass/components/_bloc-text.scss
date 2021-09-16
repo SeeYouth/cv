@@ -18,3 +18,12 @@
         margin: 20px 10px;
     }
 }
+
+#hobbies {
+    & .bg-hobbies {
+        margin-bottom: 10px;
+    }
+    & li {
+        margin: 20px 0;
+    }
+}

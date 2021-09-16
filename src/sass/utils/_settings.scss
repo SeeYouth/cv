@@ -26,6 +26,8 @@ header,
 
 //----------  FLEX  ----------//
 
+#hobbies,
+.text-hobbies,
 .body,
 section,
 main,
@@ -45,6 +47,7 @@ main {
     align-items: flex-start;
 }
 
+.text-hobbies,
 .bg-left-bloc h1 {
     align-items: center;
 }
@@ -53,12 +56,18 @@ main {
     justify-content: flex-end;
 }
 
+.text-hobbies,
 .body,
 .bg-left-bloc h1,
 .name {
     justify-content: center;
 }
 
+#hobbies {
+    justify-content: space-around;
+}
+
+.text-hobbies,
 .bg-left-bloc {
     flex-direction: column;
 }
@@ -70,6 +79,10 @@ main {
 
 
 //----------  WIDTH  ----------//
+
+.telescope {
+    width: 50px;
+}
 
 .bloc-text,
 section,
@@ -108,6 +121,10 @@ header {
 
 #root {
     min-height: 100vh;
+}
+
+.telescope {
+    height: auto;
 }
 
 .little-round {

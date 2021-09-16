@@ -3,11 +3,14 @@
 //----------       Font Awesome      ----------//
 import { 
     faBirthdayCake,
+    faCamera,
     faCar,
+    faCode,
     faDatabase,
     faEnvelope,
     faGlobe,
     faHome, 
+    faLaptop, 
     faNetworkWired, 
     faPhoneAlt,
     faToolbox
@@ -25,25 +28,28 @@ moment.locale('fr');
 
 //----------       FONT AWESOME       ----------//
 
-export const iconHome =      <FontAwesomeIcon icon={ faHome } />;
+export const iconHome      = <FontAwesomeIcon icon={ faHome } />;
 export const iconMobileAlt = <FontAwesomeIcon icon={ faPhoneAlt } />;
-export const iconCar =       <FontAwesomeIcon icon={ faCar } />;
-export const iconEnvelope =  <FontAwesomeIcon icon={ faEnvelope } />;
-export const iconBirthday =  <FontAwesomeIcon icon={ faBirthdayCake } />;
-export const iconComputer =  <FontAwesomeIcon icon={ faToolbox } />;
-export const iconNetwork =   <FontAwesomeIcon icon={ faNetworkWired } />;
-export const iconFrontEnd =  <FontAwesomeIcon icon={ faGlobe } />;
-export const iconBackEnd =   <FontAwesomeIcon icon={ faDatabase } />;
+export const iconCar       = <FontAwesomeIcon icon={ faCar } />;
+export const iconEnvelope  = <FontAwesomeIcon icon={ faEnvelope } />;
+export const iconBirthday  = <FontAwesomeIcon icon={ faBirthdayCake } />;
+export const iconComputer  = <FontAwesomeIcon icon={ faToolbox } />;
+export const iconNetwork   = <FontAwesomeIcon icon={ faNetworkWired } />;
+export const iconFrontEnd  = <FontAwesomeIcon icon={ faGlobe } />;
+export const iconBackEnd   = <FontAwesomeIcon icon={ faDatabase } />;
+export const iconCode      = <FontAwesomeIcon icon={ faCode } />;
+export const iconPhoto     = <FontAwesomeIcon icon={ faCamera } />;
+export const iconInfo      = <FontAwesomeIcon icon={ faLaptop } />;
 
 //----------  PERSONNAL INFORMATION  ----------//
 
-export const name =         "julien froger";
-export const address =      "12 route de Brénat 16730 Fléac";
-export const phone =        "06-50-17-32-57";
-export const mail =         "julienfroger16@gmail.com";
-export const licence =      "Permis B + Véhicule";
+export const name         = "julien froger";
+export const address      = "12 route de Brénat 16730 Fléac";
+export const phone        = "06-50-17-32-57";
+export const mail         = "julienfroger16@gmail.com";
+export const licence      = "Permis B + Véhicule";
 export const dateBirthday = "02-08-1984"
-export const birthday =     moment(dateBirthday, "DDMMYYYY").fromNow(true);
+export const birthday     = moment(dateBirthday, "DDMMYYYY").fromNow(true);
 
 //----------           SKILL         ----------//
 
@@ -102,3 +108,10 @@ export const textSkillArray = [
     textUserData,
     textDataBase
 ]
+
+//----------      Hobbies      ----------//
+
+export const textTelescope    = "Astronomie";
+export const textCode         = "Code";
+export const textPhoto        = "Photo";
+export const textInformatique = "Informatique";

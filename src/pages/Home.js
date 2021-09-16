@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from '../components/Contact';
 import Header from '../components/Header';
+import Hobbies from '../components/Hobbies';
 import Skill from '../components/Skill';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
                     <div className="bg-left-bloc">
                         <Contact />
                         <Skill />
+                        <Hobbies />
                     </div>
                 </section>
                 <section className="right-bloc"></section>
