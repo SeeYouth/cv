@@ -1,18 +1,3 @@
-
-// .circle,
-// .circle2,
-// .circle2-1,
-// .circle2-2,
-// .circle2-3,
-// .circle2-4 {
-//     border-radius: 50%;
-// }
-
-// .circle2-4,
-// .circle2,
-// .circle2-1,
-// .circle2-2,
-// .circle2-3,
 .circle{
     position: absolute;
 }
@@ -26,6 +11,9 @@ header,
 
 //----------  FLEX  ----------//
 
+.all-circle,
+.subtitle,
+.title,
 #hobbies,
 .text-hobbies,
 .body,
@@ -39,14 +27,23 @@ header,
     display: flex;
 }
 
-main {
+.all-circle {
     flex-flow: row wrap;
+}
+
+.subtitle,
+.title,
+main {
+    flex-flow: row nowrap;
 }
 
 .name {
     align-items: flex-start;
 }
 
+.all-circle,
+.subtitle,
+.title,
 .text-hobbies,
 .bg-left-bloc h1 {
     align-items: center;
@@ -63,10 +60,12 @@ main {
     justify-content: center;
 }
 
+.all-circle,
 #hobbies {
     justify-content: space-around;
 }
 
+.right-bloc,
 .text-hobbies,
 .bg-left-bloc {
     flex-direction: column;
@@ -82,6 +81,10 @@ main {
 
 .telescope {
     width: 50px;
+}
+
+.all-circle {
+    width: 90%;
 }
 
 .bloc-text,
@@ -131,6 +134,7 @@ header {
     height: 50px;
 }
 
+.all-circle,
 header {
     height: 279px;
 }
@@ -142,13 +146,6 @@ header {
 .circle2-3,
 .circle2-4 {
     height: 300px;
-}
-
-//----------  TEXT  ----------//
-
-.bg-left-bloc h1,
-.name {
-    text-transform: uppercase;
 }
 
 //----------    COLOR    ----------//

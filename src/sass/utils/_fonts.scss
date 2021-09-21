@@ -18,9 +18,28 @@
     font-size: 30px;
 }
 
+.title {
+    font-size: 30px;
+}
+
 //----------  FONT WEIGHT  ----------//
 
+.subtitle,
+.title,
 .bg-left-bloc h1,
 .name {
     font-weight: bold;
+}
+
+//----------  TEXT  ----------//
+
+.subtitle,
+.title h1,
+.bg-left-bloc h1,
+.name {
+    text-transform: uppercase;
+}
+
+.text {
+    text-align: justify;
 }

@@ -3,17 +3,22 @@
 //----------       Font Awesome      ----------//
 import { 
     faBirthdayCake,
+    faBriefcase,
     faCamera,
     faCar,
+    faCaretRight,
     faCode,
     faDatabase,
     faEnvelope,
     faGlobe,
+    faGraduationCap,
     faHome, 
+    faInfo, 
     faLaptop, 
     faNetworkWired, 
     faPhoneAlt,
-    faToolbox
+    faToolbox,
+    faUserTie
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -28,18 +33,23 @@ moment.locale('fr');
 
 //----------       FONT AWESOME       ----------//
 
-export const iconHome      = <FontAwesomeIcon icon={ faHome } />;
-export const iconMobileAlt = <FontAwesomeIcon icon={ faPhoneAlt } />;
-export const iconCar       = <FontAwesomeIcon icon={ faCar } />;
-export const iconEnvelope  = <FontAwesomeIcon icon={ faEnvelope } />;
-export const iconBirthday  = <FontAwesomeIcon icon={ faBirthdayCake } />;
-export const iconComputer  = <FontAwesomeIcon icon={ faToolbox } />;
-export const iconNetwork   = <FontAwesomeIcon icon={ faNetworkWired } />;
-export const iconFrontEnd  = <FontAwesomeIcon icon={ faGlobe } />;
-export const iconBackEnd   = <FontAwesomeIcon icon={ faDatabase } />;
-export const iconCode      = <FontAwesomeIcon icon={ faCode } />;
-export const iconPhoto     = <FontAwesomeIcon icon={ faCamera } />;
-export const iconInfo      = <FontAwesomeIcon icon={ faLaptop } />;
+export const iconHome           = <FontAwesomeIcon icon={ faHome } />;
+export const iconMobileAlt      = <FontAwesomeIcon icon={ faPhoneAlt } />;
+export const iconCar            = <FontAwesomeIcon icon={ faCar } />;
+export const iconEnvelope       = <FontAwesomeIcon icon={ faEnvelope } />;
+export const iconBirthday       = <FontAwesomeIcon icon={ faBirthdayCake } />;
+export const iconComputer       = <FontAwesomeIcon icon={ faToolbox } />;
+export const iconNetwork        = <FontAwesomeIcon icon={ faNetworkWired } />;
+export const iconFrontEnd       = <FontAwesomeIcon icon={ faGlobe } />;
+export const iconBackEnd        = <FontAwesomeIcon icon={ faDatabase } />;
+export const iconCode           = <FontAwesomeIcon icon={ faCode } />;
+export const iconPhoto          = <FontAwesomeIcon icon={ faCamera } />;
+export const iconInfo           = <FontAwesomeIcon icon={ faLaptop } />;
+export const iconWhoAmI         = <FontAwesomeIcon icon={ faUserTie } />;
+export const iconTraining       = <FontAwesomeIcon icon={ faGraduationCap } />;
+export const iconXp             = <FontAwesomeIcon icon={ faBriefcase } />;
+export const iconInfoSupp       = <FontAwesomeIcon icon={ faInfo } />;
+export const iconTriangleRight  = <FontAwesomeIcon icon={ faCaretRight } />;
 
 //----------  PERSONNAL INFORMATION  ----------//
 

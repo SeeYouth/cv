@@ -1,21 +1,12 @@
 .bg-left-bloc {
     padding-top: 100px;
 
-    & .bar {
-        margin: 15px 20px 0 20px;
-        background: 
-        linear-gradient(
-            to right, 
-            $bg-color-4 90%,
-            $bg-color-6 10%
-        );
-    }
     & .bloc-text {
         z-index: 100;
     }
     
     & li {
-        margin: 20px 10px;
+        margin: 10px 10px;
     }
 }
 
