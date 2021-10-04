@@ -30,3 +30,22 @@
             }
         }
     }
+
+@each 
+    $chart,
+    $left,
+    $right,
+    $bottom,
+    $top
+
+    in $charts {
+    .chart-#{$chart} {
+        border: 20px solid;
+        border-radius: 50%;
+        transform: rotate(45deg);    
+        border-left-color: $left;
+        border-right-color: $right;
+        border-bottom-color: $bottom;
+        border-top-color: $top;
+    }
+}

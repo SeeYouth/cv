@@ -11,6 +11,9 @@ header,
 
 //----------  FLEX  ----------//
 
+.charts-group,
+.charts,
+.charts h2,
 .all-circle,
 .subtitle,
 .title,
@@ -27,6 +30,7 @@ header,
     display: flex;
 }
 
+.charts-group,
 .all-circle {
     flex-flow: row wrap;
 }
@@ -41,6 +45,9 @@ main {
     align-items: flex-start;
 }
 
+.charts-group,
+.charts,
+.charts h2,
 .all-circle,
 .subtitle,
 .title,
@@ -53,6 +60,9 @@ main {
     justify-content: flex-end;
 }
 
+.charts-group,
+.charts,
+.charts h2,
 .text-hobbies,
 .body,
 .bg-left-bloc h1,

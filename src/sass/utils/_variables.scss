@@ -42,6 +42,14 @@ $bar:
     "textJs"          right $bg-color-4 $bg-color-6 50%  50%,
     "textVue"         left  $bg-color-6 $bg-color-4 80%  20%,
     "textReact"       left  $bg-color-6 $bg-color-4 70%  30%,
-    "textApi"         left  $bg-color-6 $bg-color-4 60%  40%,
-    "textUserData"    left  $bg-color-6 $bg-color-4 60%  40%,
-    "textDataBase"    left  $bg-color-6 $bg-color-4 60%  40%;
+    "textApi"         left  $bg-color-6 $bg-color-4 75%  25%,
+    "textUserData"    left  $bg-color-6 $bg-color-4 75%  25%,
+    "textDataBase"    left  $bg-color-6 $bg-color-4 75%  25%;
+
+$charts:
+    "photoshop" $bg-color-6 $bg-color-4 $bg-color-4 $bg-color-4,
+    "word"      $bg-color-6 $bg-color-4 $bg-color-4 $bg-color-4,
+    "google"    $bg-color-6 $bg-color-4 $bg-color-6 $bg-color-4,
+    "acrobat"   $bg-color-6 $bg-color-4 $bg-color-6 $bg-color-4,
+    "excel"     $bg-color-6 $bg-color-4 $bg-color-4 $bg-color-4,
+    "vscode"    $bg-color-6 $bg-color-4 $bg-color-4 $bg-color-4;
