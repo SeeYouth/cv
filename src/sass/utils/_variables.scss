@@ -2,6 +2,9 @@
 
 $bgHeader: "assets/bg-header.png";
 $bgBottomHeader: "assets/bottom-header.jpg";
+$bgBottomHobbies: "assets/bg-footer.png";
+$bgBottomRightBloc: "assets/bg-footer-right.png";
+
 
 //----------  BACKGROUND  ----------//
 
@@ -11,6 +14,7 @@ $bg-color-3: #4bacc6;
 $bg-color-4: #3690a8;
 $bg-color-5: #1e1e1e;
 $bg-color-6: #31464b;
+$bg-color-7: #31464b;
 
 
 //----------     COLOR    ----------//
@@ -20,11 +24,6 @@ $text-color-2: #303b3f;
 $text-color-3: #4bacc6;
 
 //----------     @EACHS    ----------//
-
-$width-bar: (
-    'full': 100%,
-    'windows': 90%,
-);
 
 $bar: 
     "textWindows"     right $bg-color-4 $bg-color-6 90%  10%,
@@ -40,16 +39,16 @@ $bar:
     "textHtml"        right $bg-color-4 $bg-color-6 90%  10%,
     "textSass"        right $bg-color-4 $bg-color-6 95%  5%,
     "textJs"          right $bg-color-4 $bg-color-6 50%  50%,
-    "textVue"         left  $bg-color-6 $bg-color-4 80%  20%,
-    "textReact"       left  $bg-color-6 $bg-color-4 70%  30%,
+    "textVue"         left  $bg-color-6 $bg-color-4 70%  30%,
+    "textReact"       left  $bg-color-6 $bg-color-4 80%  20%,
     "textApi"         left  $bg-color-6 $bg-color-4 75%  25%,
     "textUserData"    left  $bg-color-6 $bg-color-4 75%  25%,
     "textDataBase"    left  $bg-color-6 $bg-color-4 75%  25%;
 
 $charts:
-    "photoshop" $bg-color-6 $bg-color-4 $bg-color-4 $bg-color-4,
-    "word"      $bg-color-6 $bg-color-4 $bg-color-4 $bg-color-4,
-    "google"    $bg-color-6 $bg-color-4 $bg-color-6 $bg-color-4,
-    "acrobat"   $bg-color-6 $bg-color-4 $bg-color-6 $bg-color-4,
-    "excel"     $bg-color-6 $bg-color-4 $bg-color-4 $bg-color-4,
-    "vscode"    $bg-color-6 $bg-color-4 $bg-color-4 $bg-color-4;
+    "photoshop" $bg-color-7 $bg-color-4 $bg-color-4 $bg-color-4,
+    "word"      $bg-color-7 $bg-color-4 $bg-color-4 $bg-color-4,
+    "google"    $bg-color-7 $bg-color-4 $bg-color-7 $bg-color-4,
+    "acrobat"   $bg-color-7 $bg-color-4 $bg-color-7 $bg-color-4,
+    "excel"     $bg-color-7 $bg-color-4 $bg-color-4 $bg-color-4,
+    "vscode"    $bg-color-7 $bg-color-4 $bg-color-4 $bg-color-4;

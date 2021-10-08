@@ -1,16 +1,12 @@
 import React from 'react';
+import { iconBirthday, iconCar, iconEnvelope, iconHome, iconMobileAlt } from '../utils/FontAwesome';
 import { 
     address, 
     phone, 
     mail, 
     licence, 
     dateBirthday, 
-    birthday,
-    iconHome, 
-    iconMobileAlt,
-    iconEnvelope,
-    iconCar,
-    iconBirthday
+    birthday
 } from '../utils/Variables';
 
 const Contact = () => {

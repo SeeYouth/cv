@@ -1,8 +1,4 @@
-@each $width, $number in $width-bar {
-    .width-#{$width} {
-        width: $number;
-    }
-}
+//-----  BACKGROUND BAR SKILLS  -----//
 
 @each 
     $name-bar,
@@ -30,6 +26,8 @@
             }
         }
     }
+
+//-----  CHARTS DONUT  -----//
 
 @each 
     $chart,

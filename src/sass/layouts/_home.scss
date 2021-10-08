@@ -27,6 +27,36 @@
             left: 0;
             z-index: 0;
         }
+
+        & #hobbies:before {
+            content: "";
+            background-image: url("../" + $bgBottomHobbies);
+            background-repeat: no-repeat;
+            background-position: left top;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        
+    }
+
+    & .right-bloc {
+
+        & #bottom-bloc-right:before {
+            content: "";
+            background-image: url("../" + $bgBottomRightBloc);
+            background-repeat: no-repeat;
+            background-position: left top;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
     }
 }
 

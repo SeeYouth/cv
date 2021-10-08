@@ -1,13 +1,15 @@
 import React from 'react';
 import { 
+    iconBackEnd, 
+    iconComputer, 
+    iconFrontEnd, 
+    iconNetwork 
+} from '../utils/FontAwesome';
+import { 
     maintenance,
     network,
     webFrontEnd,
     webBackEnd,
-    iconComputer,
-    iconNetwork,
-    iconFrontEnd,
-    iconBackEnd,
     textSkillArray
 } from '../utils/Variables';
 
@@ -23,37 +25,37 @@ const Skill = () => {
                         <span className="bg-icon">{ iconComputer }</span>
                         { maintenance }
                         <li className="bar-textWindows">
-                            <div className="width-full text-bar">
+                            <div className="text-bar">
                                 { textSkillArray[0] }
                             </div>
                         </li>
                         <li className="bar-textLinux">
-                            <div className="width-full text-bar">
+                            <div className="text-bar">
                                 { textSkillArray[1] }
                             </div>
                         </li>
                         <li className="bar-textMacosx">
-                            <div className="width-full text-bar">
+                            <div className="text-bar">
                                 { textSkillArray[2] }
                             </div>
                         </li>
                         <li className="bar-textPrinter">
-                            <div className="width-full text-bar">
+                            <div className="text-bar">
                                 { textSkillArray[3] }
                             </div>
                         </li>
                         <li className="bar-textOpti">
-                            <div className="width-full text-bar">
+                            <div className="text-bar">
                                 { textSkillArray[4] }
                             </div>
                         </li>
                         <li className="bar-textPreparation">
-                            <div className="width-full text-bar">
+                            <div className="text-bar">
                                 { textSkillArray[5] }
                             </div>
                         </li>
                         <li className="bar-textRemote">
-                            <div className="width-full text-bar">
+                            <div className="text-bar">
                                 { textSkillArray[6] }
                             </div>
                         </li>

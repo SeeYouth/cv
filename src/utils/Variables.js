@@ -1,55 +1,8 @@
-//----------          IMPORT         ----------//
-
-//----------       Font Awesome      ----------//
-import { 
-    faBirthdayCake,
-    faBriefcase,
-    faCamera,
-    faCar,
-    faCaretRight,
-    faCode,
-    faDatabase,
-    faEnvelope,
-    faGlobe,
-    faGraduationCap,
-    faHome, 
-    faInfo, 
-    faLaptop, 
-    faNetworkWired, 
-    faPhoneAlt,
-    faToolbox,
-    faUserTie
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 //----------         momentJS         ----------//
 
 import moment from "moment";
 import 'moment/locale/fr';
 moment.locale('fr');
-
-//----------------------------------------------//
-
-
-//----------       FONT AWESOME       ----------//
-
-export const iconHome           = <FontAwesomeIcon icon={ faHome } />;
-export const iconMobileAlt      = <FontAwesomeIcon icon={ faPhoneAlt } />;
-export const iconCar            = <FontAwesomeIcon icon={ faCar } />;
-export const iconEnvelope       = <FontAwesomeIcon icon={ faEnvelope } />;
-export const iconBirthday       = <FontAwesomeIcon icon={ faBirthdayCake } />;
-export const iconComputer       = <FontAwesomeIcon icon={ faToolbox } />;
-export const iconNetwork        = <FontAwesomeIcon icon={ faNetworkWired } />;
-export const iconFrontEnd       = <FontAwesomeIcon icon={ faGlobe } />;
-export const iconBackEnd        = <FontAwesomeIcon icon={ faDatabase } />;
-export const iconCode           = <FontAwesomeIcon icon={ faCode } />;
-export const iconPhoto          = <FontAwesomeIcon icon={ faCamera } />;
-export const iconInfo           = <FontAwesomeIcon icon={ faLaptop } />;
-export const iconWhoAmI         = <FontAwesomeIcon icon={ faUserTie } />;
-export const iconTraining       = <FontAwesomeIcon icon={ faGraduationCap } />;
-export const iconXp             = <FontAwesomeIcon icon={ faBriefcase } />;
-export const iconInfoSupp       = <FontAwesomeIcon icon={ faInfo } />;
-export const iconTriangleRight  = <FontAwesomeIcon icon={ faCaretRight } />;
 
 //----------  PERSONNAL INFORMATION  ----------//
 
@@ -60,6 +13,8 @@ export const mail         = "julienfroger16@gmail.com";
 export const licence      = "Permis B + Véhicule";
 export const dateBirthday = "02-08-1984"
 export const birthday     = moment(dateBirthday, "DDMMYYYY").fromNow(true);
+export const dateYear     = new Date().getFullYear();
+export const copyright    = " " + dateYear + " Tous droits réservés";
 
 //----------           SKILL         ----------//
 
@@ -70,7 +25,7 @@ export const webBackEnd =   "Développement Back-end";
 
 //----------     Array Skill Text    ----------//
 
-//----------     Maintenance Info    ----------//
+//     -----     Maintenance Info    -----     //
 const textWindows =     "Windows";
 const textLinux =       "Linux";
 const textMacosx =      "Mac OSX";
@@ -79,21 +34,21 @@ const textOpti =        "Optimisation hardware";
 const textPreparation = "Préparation poste informatique";
 const textRemote =      "Assistance à distance";
 
-//----------  Configuration réseaux  ----------//
+//     -----  Configuration réseaux  -----     //
 const textNetwork = "Installation & configuration équipement réseaux";
 const textNas =     "Installation & configuration serveur de stockage";
 const textFreenas = "Freenas";
 
-//----------      Développement      ----------//
+//     -----      Développement      -----     //
 
-//----------        Front-End        ----------//
+//     -----        Front-End        -----     //
 const textHtml =  "HTML 5/CSS 3";
 const textSass =  "SASS";
 const textJs =    "JavaScript";
 const textVue =   "Vue JS";
 const textReact = "React";
 
-//----------         Back-End        ----------//
+//     -----         Back-End        -----     //
 const textApi =      "Conception d’une API REST";
 const textUserData = "Gestion des données utilisateurs";
 const textDataBase = "Gestion de la base de données";

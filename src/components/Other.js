@@ -1,5 +1,5 @@
 import React from 'react';
-import { iconInfoSupp } from '../utils/Variables';
+import { iconInfoSupp } from '../utils/FontAwesome';
 
 const Other = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { iconWhoAmI } from '../utils/Variables';
+import { iconWhoAmI } from '../utils/FontAwesome';
 
 const WhoAmI = () => {
     return (

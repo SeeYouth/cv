@@ -2,6 +2,8 @@
     position: absolute;
 }
 
+#bottom-bloc-right,
+#hobbies,
 .left-bloc,
 header,
 .circle,
@@ -11,13 +13,14 @@ header,
 
 //----------  FLEX  ----------//
 
+#hobbies,
+footer,
 .charts-group,
 .charts,
 .charts h2,
 .all-circle,
 .subtitle,
 .title,
-#hobbies,
 .text-hobbies,
 .body,
 section,
@@ -41,10 +44,12 @@ main {
     flex-flow: row nowrap;
 }
 
+#hobbies,
 .name {
     align-items: flex-start;
 }
 
+footer,
 .charts-group,
 .charts,
 .charts h2,
@@ -60,6 +65,7 @@ main {
     justify-content: flex-end;
 }
 
+footer,
 .charts-group,
 .charts,
 .charts h2,
@@ -97,6 +103,7 @@ main {
     width: 90%;
 }
 
+footer,
 .bloc-text,
 section,
 main,
@@ -132,6 +139,14 @@ header {
     height: 100%;
 }
 
+#bottom-bloc-right {
+    height: 259px;
+}
+
+#hobbies {
+    height: 200px;
+}
+
 #root {
     min-height: 100vh;
 }
@@ -160,6 +175,7 @@ header {
 
 //----------    COLOR    ----------//
 
+footer,
 .bg-left-bloc,
 .name {
     color: $text-color-1;
@@ -172,6 +188,7 @@ header {
     background-color: transparent;
 }
 
+footer,
 .left-bloc,
 .bg-left-bloc {
     background-color: $bg-color-2;

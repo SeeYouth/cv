@@ -1,5 +1,5 @@
 import React from 'react';
-import { iconXp } from '../utils/Variables';
+import { iconXp } from '../utils/FontAwesome';
 
 const Experience = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { iconTraining } from '../utils/Variables';
+import { iconTraining } from '../utils/FontAwesome';
 
 const Education = () => {
     return (
