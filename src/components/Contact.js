@@ -11,7 +11,7 @@ import {
 
 const Contact = () => {
     return (
-        <div className="bloc-text">
+        <div className="bloc-text adress">
             <h1>contact</h1>
             <ul>
                 <li>

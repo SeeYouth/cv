@@ -1,10 +1,5 @@
 .circle {
-    z-index: 11;
     background-image: url(../assets/photo-profil.jpg);
     background-size: 300px;
     border: 20px solid $bg-color-4;
-    margin: 50px;
-    top: 50%;
-    right: 2.5%;
-    transform: translateY(-50%);
 }
