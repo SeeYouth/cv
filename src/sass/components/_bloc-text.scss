@@ -1,19 +1,26 @@
 .bg-left-bloc {
 
-    & .bloc-text {
+    .bloc-text {
         z-index: 100;
     }
     
-    & li {
+    li {
         margin: 10px 10px;
+    }
+
+    .adress {
+
+        li {
+            margin: 19px 10px;
+        }
     }
 }
 
 #hobbies {
-    & .bg-hobbies {
+    .bg-hobbies {
         margin-bottom: 10px;
     }
-    & li {
+    li {
         margin: 20px 0;
     }
 }

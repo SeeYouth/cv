@@ -1,7 +1,11 @@
 import React from 'react';
-import { iconBirthday, iconCar, iconEnvelope, iconHome, iconMobileAlt } from '../utils/FontAwesome';
 import { 
-    address, 
+    iconBirthday, 
+    iconCar, 
+    iconEnvelope, 
+    iconMobileAlt
+} from '../utils/FontAwesome';
+import { 
     phone, 
     mail, 
     licence, 
@@ -14,10 +18,6 @@ const Contact = () => {
         <div className="bloc-text adress">
             <h1>contact</h1>
             <ul>
-                <li>
-                    <span className="bg-icon">{ iconHome }</span>
-                    { address }
-                </li>
                 <li>
                     <span className="bg-icon">{ iconMobileAlt }</span>
                     { phone }
