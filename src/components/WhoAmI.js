@@ -10,7 +10,7 @@ const WhoAmI = () => {
             </div>
             <div className="text">
                 <p>Autodidacte dans l’âme, l’informatique a toujours été une passion, 
-                    même après 15 ans d’expérience dans ce monde. </p>
+                    même après 15 ans d’expérience dans ce domaine. </p>
                 <p>Afin de développer mes compétences, je me suis lancé le défi, 
                     il y a deux ans, d'apprendre le développement web. </p>
             </div>

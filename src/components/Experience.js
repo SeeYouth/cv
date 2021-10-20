@@ -37,7 +37,7 @@ const Experience = () => {
                     </div>
                     <ul>
                         <li>Travaux public</li>
-                        <li>Metallurgie</li>
+                        <li>Métallurgie</li>
                         <li>Spectacle</li>
                         <li>Etc...</li>
                     </ul>
