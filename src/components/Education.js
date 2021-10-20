@@ -12,6 +12,15 @@ const Education = () => {
                 <ul>
                     <div className="subtitle">
                         <div className="icon-subtitle"></div>
+                        <h2><span>2019 - À aujourd'hui</span>formation en autodidacte</h2>
+                    </div>
+                    <li>Maîtrise du langage HTML et CSS</li>
+                    <li>Confirmation des connaissances en Javascript </li>
+                    <li>Découverte de nouvelle technologie - REACT</li>
+                </ul>
+                <ul>
+                    <div className="subtitle">
+                        <div className="icon-subtitle"></div>
                         <h2><span>avril-octobre 2019</span>openclassrooms</h2>
                     </div>
                     <li>Développement d’une interface utilisateur</li>
