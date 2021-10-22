@@ -12,25 +12,27 @@ import WhoAmI from '../components/WhoAmI';
 
 const Home = () => {
     return (
-        <div id="home">
-            <Header />
-            <main>
-                <section className="left-bloc">
-                    <div className="bg-left-bloc">
-                        <Contact />
-                        <Skill />
-                        <Hobbies />
-                    </div>
-                </section>
-                <section className="right-bloc">
-                    <WhoAmI />
-                    <Education />
-                    <Experience />
-                    <Other />
-                    <BottomBlocRight />
-                </section>
-            </main>
-            <Footer />
+        <div className="body">
+            <div id="home">
+                <Header />
+                <main>
+                    <section className="left-bloc">
+                        <div className="bg-left-bloc">
+                            <Contact />
+                            <Skill />
+                            <Hobbies />
+                        </div>
+                    </section>
+                    <section className="right-bloc">
+                        <WhoAmI />
+                        <Education />
+                        <Experience />
+                        <Other />
+                        <BottomBlocRight />
+                    </section>
+                </main>
+                <Footer />
+            </div>
         </div>
     );
 };

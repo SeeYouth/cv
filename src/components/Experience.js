@@ -12,7 +12,7 @@ const Experience = () => {
                 <ul>
                     <div className="subtitle">
                         <div className="icon-subtitle"></div>
-                        <h2><span>2015 - 2018</span>gérant eirl</h2>
+                        <h2><span>2015 - 2020</span>gérant eirl</h2>
                     </div>
                     <li>Vente & maintenance de matériel informatique</li>
                     <li>Mise en place d’infrastructure réseau & du parc informatique</li>

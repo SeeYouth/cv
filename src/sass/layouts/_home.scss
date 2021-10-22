@@ -96,6 +96,16 @@
             }
         }
     }
+
+    footer {
+        .footer-print {
+            display: none;
+        }
+    }
+
+    .icon-bottom-bloc-right {
+        position: absolute;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -106,7 +116,6 @@
 
         .bg-header {
             justify-content: center;
-            align-items: center;
             height: 100%;
             flex-direction: column;
         }
@@ -125,6 +134,11 @@
         flex-direction: column;
     }
 
+    .footer-print {
+        position: absolute;
+    }
+
+    #bottom-bloc-right,
     .left-bloc::before {
         display: none;
     }
@@ -133,12 +147,13 @@
         margin-top: 20px;
     }
 
-    #bottom-bloc-right {
-        display: none;
-    }
-
+    .bg-header,
     .right-bloc {
         align-items: center;
+    }
+
+    footer {
+        justify-content: flex-end;
     }
 
     #hobbies {
@@ -168,6 +183,14 @@
 
     .circle {
         margin-top: 10px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    .footer-print {
+        position: absolute;
     }
 }
 
