@@ -1,6 +1,10 @@
 import React from 'react';
 import { svgTelescope } from '../sass/assets/telescope';
-import { iconCode, iconInfo, iconPhoto } from '../utils/FontAwesome';
+import { 
+    iconCode, 
+    iconInfo, 
+    iconPhoto 
+} from '../utils/FontAwesome';
 import { 
         textCode, 
         textInformatique,

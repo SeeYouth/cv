@@ -1,24 +1,31 @@
 //----------  FONT FAMILY  ----------//
 
+.error,
 .body {
     font-family: 'Barlow', sans-serif;
 }
 
-//----------  FONT SIZE  ----------//
+.error h1 {
+    font-family: 'blasphem', Arial;
+}
 
+//----------  FONT SIZE  ----------//
 
 .text-hobbies {
     font-size: 1rem;
 }
 
+.text-error,
 .bg-left-bloc {
     font-size: 20px;
 }
 
+.text-error h3,
 .iconPrint {
     font-size: 25px;
 }
 
+.text-error-page,
 .icon-close,
 .bg-left-bloc h1,
 .title {
@@ -27,6 +34,7 @@
 
 //----------  FONT WEIGHT  ----------//
 
+.text-error h4,
 .iconPrint p,
 .charts h2,
 .subtitle,
@@ -35,6 +43,11 @@
 .name {
     font-weight: bold;
 }
+
+.text-error h3 {
+    font-weight: bolder;
+}
+
 
 //----------  TEXT  ----------//
 

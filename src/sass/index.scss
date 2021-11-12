@@ -1,5 +1,6 @@
 @import "./utils/variables",
         "./utils/eachs",
+        "./utils/fonts-family",
         "./utils/fonts",
         "./utils/icon",
         "./utils/reset",
@@ -11,7 +12,9 @@
         "./components/chart",
         "./components/footer",
         "./components/header",
+        './components/info-not-point',
         "./components/print",
         "./components/xp-pro-and-co";
 
-@import "./layouts/home";
+@import "./layouts/home",
+        "./layouts/not_found";

@@ -1,8 +1,12 @@
+.error,
+.text-title-error,
 .icon-close,
 .circle{
     position: absolute;
 }
 
+.bg-point-icon-info,
+.bloc-error,
 footer,
 .page-pdf,
 #bottom-bloc-right,
@@ -16,6 +20,7 @@ header,
 
 //----------  FLEX  ----------//
 
+.text-error-page,
 .iconPrint,
 #hobbies,
 footer,
@@ -42,12 +47,14 @@ header,
     flex-flow: row wrap;
 }
 
+.text-error-page,
 .subtitle,
 .title,
 main {
     flex-flow: row nowrap;
 }
 
+.text-error-page,
 #hobbies,
 .name {
     align-items: flex-start;
@@ -109,6 +116,12 @@ footer,
     width: 90%;
 }
 
+.bloc-error,
+#root {
+    width: 100vw;
+}
+
+.bloc-error,
 footer,
 .bloc-text,
 section,
@@ -137,6 +150,14 @@ header,
 
 //----------  HEIGHT  ----------//
 
+// .bloc-error {
+//     height: 600px;
+// }
+
+.bloc-error {
+    height: 100vh;
+}
+
 #home,
 .left-bloc,
 .bg-left-bloc,
@@ -152,9 +173,9 @@ header,
     height: 201px;
 }
 
-#root {
-    min-height: 100vh;
-}
+// #root {
+//     min-height: 100vh;
+// }
 
 .telescope {
     height: auto;
@@ -183,6 +204,11 @@ footer,
 
 //----------  BACKGROUND  ----------//
 //----------    COLOR    ----------//
+
+.bloc-error,
+body {
+    background-color: $bg-color-1;
+}
 
 header {
     background-color: transparent;
