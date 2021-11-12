@@ -9,7 +9,7 @@ moment.locale('fr');
 export const name         = "julien froger";
 export const address      = "12 route de Brénat 16730 Fléac";
 export const phone        = "06-50-17-32-57";
-export const mail         = "julienfroger16@gmail.com";
+export const mail         = "contact@histoire-de-vie.fr";
 export const licence      = "Permis B + Véhicule";
 export const dateBirthday = "02-08-1984"
 export const birthday     = moment(dateBirthday, "DDMMYYYY").fromNow(true);
