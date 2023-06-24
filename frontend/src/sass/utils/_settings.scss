@@ -1,8 +1,8 @@
 .error,
 .text-title-error,
 .icon-close,
-.circle{
-    position: absolute;
+.circle {
+  position: absolute;
 }
 
 .bg-point-icon-info,
@@ -15,7 +15,7 @@ footer,
 header,
 .circle,
 .little-round {
-    position: relative;
+  position: relative;
 }
 
 //----------  FLEX  ----------//
@@ -39,25 +39,25 @@ main,
 header,
 .name,
 .bg-header {
-    display: flex;
+  display: flex;
 }
 
 .charts-group,
 .all-circle {
-    flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .text-error-page,
 .subtitle,
 .title,
 main {
-    flex-flow: row nowrap;
+  flex-flow: row nowrap;
 }
 
 .text-error-page,
 #hobbies,
 .name {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .iconPrint,
@@ -70,11 +70,11 @@ footer,
 .title,
 .text-hobbies,
 .bg-left-bloc h1 {
-    align-items: center;
+  align-items: center;
 }
 
 .bg-header {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 footer,
@@ -85,40 +85,38 @@ footer,
 .body,
 .bg-left-bloc h1,
 .name {
-    justify-content: center;
+  justify-content: center;
 }
 
 .all-circle,
 #hobbies {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 footer,
 .right-bloc,
 .text-hobbies,
 .bg-left-bloc {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .bg-header {
-    flex-direction: row;
+  flex-direction: row;
 }
-
-
 
 //----------  WIDTH  ----------//
 
 .telescope {
-    width: 50px;
+  width: 50px;
 }
 
 .all-circle {
-    width: 90%;
+  width: 90%;
 }
 
 .bloc-error,
 #root {
-    width: 100vw;
+  width: 100vw;
 }
 
 .page-pdf,
@@ -130,23 +128,23 @@ main,
 .bg-left-bloc,
 header,
 .bg-header {
-    width: 100%;
+  width: 100%;
 }
 
 .circle {
-    width: 300px;
+  width: 300px;
 }
 
 .charts-group {
-    width: 600px;
+  width: 600px;
 }
 
 .left-bloc {
-    width: 400px;
+  width: 400px;
 }
 
 .little-round {
-    width: 50px;
+  width: 50px;
 }
 
 //----------  HEIGHT  ----------//
@@ -156,22 +154,22 @@ header,
 // }
 
 .bloc-error {
-    height: 100vh;
+  height: 100vh;
 }
 
 #home,
 .left-bloc,
 .bg-left-bloc,
 .bg-header {
-    height: 100%;
+  height: 100%;
 }
 
 #bottom-bloc-right {
-    height: 202px;
+  height: 202px;
 }
 
 #hobbies {
-    height: 201px;
+  height: 201px;
 }
 
 // #root {
@@ -179,11 +177,11 @@ header,
 // }
 
 .telescope {
-    height: auto;
+  height: auto;
 }
 
 .little-round {
-    height: 50px;
+  height: 50px;
 }
 
 .circle,
@@ -192,7 +190,7 @@ header,
 .circle2-2,
 .circle2-3,
 .circle2-4 {
-    height: 300px;
+  height: 300px;
 }
 
 //----------    COLOR    ----------//
@@ -200,7 +198,7 @@ header,
 footer,
 .bg-left-bloc,
 .name {
-    color: $text-color-1;
+  color: $text-color-1;
 }
 
 //----------  BACKGROUND  ----------//
@@ -208,21 +206,21 @@ footer,
 
 .bloc-error,
 body {
-    background-color: $bg-color-1;
+  background-color: $bg-color-1;
 }
 
 header {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 footer,
 .left-bloc,
 .bg-left-bloc {
-    background-color: $bg-color-2;
+  background-color: $bg-color-2;
 }
 
 .bg-left-bloc h1 {
-    background-color: $bg-color-4;
+  background-color: $bg-color-4;
 }
 
 //----------     BOX     ----------//
@@ -231,5 +229,5 @@ footer,
 section,
 .bg-left-bloc,
 .left-bloc {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
