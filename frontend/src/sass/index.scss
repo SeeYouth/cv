@@ -12,6 +12,7 @@
 @import "./utils//settings/background",
         "./utils/settings/flex",
         "./utils/settings/height",
+        "./utils/settings/locomotive-scroll",
         "./utils/settings/width";
 
 //prettier-ignore
@@ -24,4 +25,6 @@
         "./components/print",
         "./components/xp-pro-and-co";
 
-@import "./layouts/home", "./layouts/not_found";
+//prettier-ignore
+@import "./layouts/home",
+        "./layouts/not_found";
