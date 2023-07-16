@@ -2,7 +2,7 @@ import {
   iconBackEnd,
   iconComputer,
   iconFrontEnd,
-  iconNetwork,
+  iconNetwork
 } from "../utils/FontAwesome";
 
 //----------        MOMENT JS        ----------//
@@ -22,33 +22,33 @@ export const textSkillArray = [
     list: [
       {
         category: "Windows",
-        className: "textWindows",
+        className: "textWindows"
       },
       {
         category: "Linux",
-        className: "textLinux",
+        className: "textLinux"
       },
       {
         category: "Mac OSX",
-        className: "textMacosx",
+        className: "textMacosx"
       },
       {
         category: "Réparation & Maintenance copieur/imprimante",
-        className: "textPrinter",
+        className: "textPrinter"
       },
       {
         category: "Optimisation hardware",
-        className: "textOpti",
+        className: "textOpti"
       },
       {
         category: "Préparation poste informatique",
-        className: "textPreparation",
+        className: "textPreparation"
       },
       {
         category: "Assistance à distance",
-        className: "textRemote",
-      },
-    ],
+        className: "textRemote"
+      }
+    ]
   },
   {
     title: "Configuration réseau",
@@ -56,17 +56,17 @@ export const textSkillArray = [
     list: [
       {
         category: "Installation & configuration équipement réseaux",
-        className: "textNetwork",
+        className: "textNetwork"
       },
       {
         category: "Installation & configuration serveur de stockage",
-        className: "textNas",
+        className: "textNas"
       },
       {
         category: "Freenas",
-        className: "textFreenas",
-      },
-    ],
+        className: "textFreenas"
+      }
+    ]
   },
   {
     title: "Développement Front-end",
@@ -74,21 +74,21 @@ export const textSkillArray = [
     list: [
       {
         category: "HTML 5/CSS 3",
-        className: "textHtml",
+        className: "textHtml"
       },
       {
         category: "SASS",
-        className: "textSass",
+        className: "textSass"
       },
       {
         category: "JavaScript",
-        className: "textJs",
+        className: "textJs"
       },
       {
         category: "React",
-        className: "textReact",
-      },
-    ],
+        className: "textReact"
+      }
+    ]
   },
   {
     title: "Développement Back-end",
@@ -96,18 +96,18 @@ export const textSkillArray = [
     list: [
       {
         category: "Conception d’une API REST",
-        className: "textApi",
+        className: "textApi"
       },
       {
         category: "Gestion des données utilisateurs",
-        className: "textUserData",
+        className: "textUserData"
       },
       {
         category: "Gestion de la base de données",
-        className: "textDataBase",
-      },
-    ],
-  },
+        className: "textDataBase"
+      }
+    ]
+  }
 ];
 
 //----------  PERSONNAL INFORMATION  ----------//
@@ -115,10 +115,17 @@ export const textSkillArray = [
 export const name = "julien froger";
 export const address = "12 route de Brénat 16730 Fléac";
 export const phone = "06-50-17-32-57";
-export const mail = "contact@histoire-de-vie.fr";
+export const mail = "julien.froger@histoire-de-vie.fr";
 export const licence = "Permis B + Véhicule";
 export const dateBirthday = "02-08-1984";
 export const birthday = moment(dateBirthday, "DD-MM-YYYY").fromNow(true);
+// export const dateBirthday = "02-08-1984";
+// export const birthday = moment(dateBirthday, "DD-MM-YYYY");
+// export const now = moment();
+// export let age = now.diff(birthday, "years");
+// if (now.format("MM-DD") < birthday.format("MM-DD")) {
+//   age--; // Si l'anniversaire n'est pas encore passé, soustraire un an
+// }
 export const dateYear = new Date().getFullYear();
 export const copyright = " " + dateYear + " Tous droits réservés";
 
