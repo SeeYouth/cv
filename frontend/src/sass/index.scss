@@ -1,3 +1,4 @@
+//prettier-ignore
 @import "./utils/variables",
         "./utils/eachs",
         "./utils/fonts-family",
@@ -7,6 +8,14 @@
         "./utils/settings",
         "./utils/title";
 
+//prettier-ignore
+@import "./utils//settings/background",
+        "./utils/settings/flex",
+        "./utils/settings/height",
+        "./utils/settings/locomotive-scroll",
+        "./utils/settings/width";
+
+//prettier-ignore
 @import "./components/anim-profil",
         "./components/bloc-text",
         "./components/chart",
@@ -16,5 +25,6 @@
         "./components/print",
         "./components/xp-pro-and-co";
 
+//prettier-ignore
 @import "./layouts/home",
         "./layouts/not_found";

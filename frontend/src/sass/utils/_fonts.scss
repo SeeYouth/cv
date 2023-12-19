@@ -1,68 +1,75 @@
 //----------  FONT FAMILY  ----------//
 
-.error,
-.body {
-    font-family: 'Barlow', sans-serif;
+.body,
+.error {
+  font-family: "Barlow", sans-serif;
 }
 
 .error h1 {
-    font-family: 'blasphem', Arial;
+  font-family: "blasphem", Arial;
 }
 
 //----------  FONT SIZE  ----------//
 
 .text-hobbies {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
-.text-error,
-.bg-left-bloc {
-    font-size: 20px;
+.text-bar {
+  font-size: 0.75rem;
 }
 
-.text-error h3,
-.iconPrint {
-    font-size: 25px;
+.charts h2 {
+  font-size: 0.7rem;
 }
 
-.text-error-page,
-.icon-close,
+.bg-left-bloc,
+.text-error {
+  font-size: 20px;
+}
+
+.iconPrint,
+.text-error h3 {
+  font-size: 25px;
+}
+
 .bg-left-bloc h1,
+.icon-close,
+.text-error-page,
 .title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 //----------  FONT WEIGHT  ----------//
 
-.text-error h4,
-.iconPrint p,
-.charts h2,
-.subtitle,
-.title,
 .bg-left-bloc h1,
-.name {
-    font-weight: bold;
+.charts h2,
+.iconPrint p,
+.name,
+.subtitle,
+.text-error h4,
+.title {
+  font-weight: bold;
 }
 
 .text-error h3 {
-    font-weight: bolder;
+  font-weight: bolder;
 }
-
 
 //----------  TEXT  ----------//
 
+.bg-left-bloc h1,
 .charts h2,
 .subtitle,
-.title h1,
-.bg-left-bloc h1,
-.name {
-    text-transform: uppercase;
+.name,
+.title h1 {
+  text-transform: uppercase;
 }
 
 .text {
-    text-align: justify;
+  text-align: justify;
 }
 
 .charts h2 {
-    text-align: center;
+  text-align: center;
 }

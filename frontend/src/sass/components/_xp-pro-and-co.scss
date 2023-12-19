@@ -1,48 +1,32 @@
 .title {
-    color: $text-color-3;
-    padding-left: 10px;
-    margin: 30px 0 20px 0;
+  padding-left: 10px;
+  margin: 30px 0 20px 0;
+}
+
+.subtitle,
+.title {
+  color: $text-color-3;
 }
 
 .text {
-    margin: 0 30px 0 70px;
-    & p, li, h3 {
-        margin-left:30px;
-    }
+  margin: 0 10px;
 }
 
 .icon-subtitle {
-    width: 0;
-    height: 0;
-    display : inline-block;
-    border-top : 7px solid transparent;
-    border-bottom : 7px solid transparent;
-    border-left : 20px solid black;
-    margin-right: 10px;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 20px solid black;
+  margin-right: 10px;
 }
 
 .subtitle {
-    margin-top: 20px;
-    margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 
-    & span {
-        margin-right: 25px;
-    }
+  & span {
+    margin-right: 15px;
+  }
 }
-
-// .all-circle {
-//     border: 2px solid black;
-
-//     & .circle-master {
-        
-//         margin: 10px;
-//         width: 0;
-//         height: 0;
-//         border-radius: 50%;
-//         // background-color: $bg-color-6;
-//         display : inline-block;
-//         border-top : 90px solid transparent;
-//         border-bottom : 90px solid transparent;
-//         border-left : 100px solid $bg-color-6;
-//     }
-// }

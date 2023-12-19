@@ -1,0 +1,87 @@
+.all-circle,
+.bg-icon-skill,
+.bg-left-bloc,
+.bg-left-bloc h1,
+.body,
+.charts-group,
+.charts,
+.charts h2,
+footer,
+header,
+#hobbies,
+.iconPrint,
+main,
+section,
+.subtitle,
+.text,
+.text-error-page,
+.text-hobbies,
+.bg-header,
+.title {
+  display: flex;
+}
+
+.all-circle,
+.charts-group,
+.text {
+  flex-flow: row wrap;
+}
+
+main,
+.subtitle,
+.text-error-page,
+.title {
+  flex-flow: row nowrap;
+}
+
+#hobbies,
+.name,
+.text-error-page {
+  align-items: flex-start;
+}
+
+.all-circle,
+.bg-icon-skill,
+.bg-left-bloc h1,
+.charts-group,
+.charts,
+.charts h2,
+footer,
+.iconPrint,
+.subtitle,
+.text-hobbies,
+.title {
+  align-items: center;
+}
+
+.bg-header {
+  justify-content: flex-end;
+}
+
+.bg-icon-skill,
+.bg-left-bloc h1,
+.body,
+.charts,
+.charts-group,
+.charts h2,
+footer,
+.name,
+.text-hobbies {
+  justify-content: center;
+}
+
+.all-circle,
+#hobbies {
+  justify-content: space-around;
+}
+
+.bg-left-bloc,
+footer,
+.right-bloc,
+.text-hobbies {
+  flex-direction: column;
+}
+
+.bg-header {
+  flex-direction: row;
+}

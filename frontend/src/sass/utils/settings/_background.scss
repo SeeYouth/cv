@@ -1,0 +1,18 @@
+.bloc-error,
+body {
+  background-color: $bg-color-1;
+}
+
+header {
+  background-color: transparent;
+}
+
+footer,
+.left-bloc,
+.bg-left-bloc {
+  background-color: $bg-color-2;
+}
+
+.bg-left-bloc h1 {
+  background-color: $bg-color-4;
+}

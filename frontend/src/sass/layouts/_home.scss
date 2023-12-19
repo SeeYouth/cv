@@ -1,237 +1,233 @@
 @media only screen and (min-width: 1001px) {
-
-    header {
-        .name {
-            padding: 45px 100px 0 0;
-            font-size: 4rem;
-        }
-    }
-
-    #home,
-    header {
-        width: 1000px;
-    }
-
-    .all-circle,
-    header {
-        height: 279px;
-    }
-
-    #home {
-    
-        .bg-header:before {
-            content: "";
-            background-image: url("../" + $bgHeader);
-            background-repeat: no-repeat;
-            background-position: left top;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: 0;
-        }
-
-        .circle {
-            margin: 50px;
-            top: 50%;
-            right: 2.5%;
-            transform: translateY(-50%);
-            z-index: 11;
-        }
-
-        .left-bloc {
-
-            .bg-left-bloc {
-                padding-top: 100px;
-                display: flex;
-                justify-content: center;
-
-                h1 {
-                    width: 400px;
-                }
-            }
-    
-            .bg-left-bloc:before {
-                content: "";
-                background-image: url("../" + $bgBottomHeader);
-                background-repeat: no-repeat;
-                background-position: left top;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                z-index: 0;
-            }
-    
-            #hobbies:before {
-                content: "";
-                background-image: url("../" + $bgBottomHobbies);
-                background-repeat: no-repeat;
-                background-position: left top;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                z-index: -1;
-            }
-            
-        }
-    
-        .right-bloc {
-    
-            #bottom-bloc-right:before {
-                content: "";
-                background-image: url("../" + $bgBottomRightBloc);
-                background-repeat: no-repeat;
-                background-position: left top;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                z-index: 0;
-            }
-        }
-    }
-
-    footer {
-        .footer-print {
-            display: none;
-        }
-    }
-
-    .icon-bottom-bloc-right {
-        position: absolute;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    
-    header {
-
-        background-color: $bg-color-2;
-
-        .bg-header {
-            justify-content: center;
-            height: 100%;
-            flex-direction: column;
-        }
-
-        .name {
-            margin: 20px 0;
-        }
-    }    
-
-    .left-bloc,
-    #home {
-        width: 100%;
-    }
-    
-    main {
-        flex-direction: column;
-    }
-
-    .footer-print {
-        position: absolute;
-    }
-
-    #bottom-bloc-right,
-    .left-bloc::before {
-        display: none;
-    }
-
-    .bg-left-bloc {
-        margin-top: 20px;
-    }
-
-    .bg-header,
-    .right-bloc {
-        align-items: center;
-    }
-
-    footer {
-        justify-content: flex-end;
-    }
-
-    #hobbies {
-        height: 120px;
-    }
-
-    .charts-group {
-        width: 100%;
-        max-width: 500px;
-
-        .charts {
-            max-width: 100px;
-            width: 5rem;
-            max-height: 100px;
-            height: 5rem;
-            border-width: 15px;
-
-            h2 {
-                font-size: .8rem;
-            }
-        }
-    }
-
+  header {
     .name {
-        font-size: 3rem;
+      padding: 45px 100px 0 0;
+      font-size: 4rem;
+    }
+  }
+
+  header,
+  #home {
+    width: 1000px;
+  }
+
+  .all-circle,
+  header {
+    height: 279px;
+  }
+
+  #home {
+    .bg-header:before {
+      content: "";
+      background-image: url("../" + $bgHeader);
+      background-repeat: no-repeat;
+      background-position: left top;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 0;
     }
 
     .circle {
-        margin-top: 10px;
+      margin: 50px;
+      top: 50%;
+      right: 2.5%;
+      transform: translateY(-50%);
+      z-index: 11;
     }
 
-    footer {
-        height: 50px;
-    }
-
-    .footer-print {
-        position: absolute;
-    }
-}
-
-@media only screen and (min-width:501px) and (max-width: 1000px) {
-    .other {
+    .left-bloc {
+      .bg-left-bloc {
+        padding-top: 100px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
+
+        h1 {
+          width: 400px;
+        }
+      }
+
+      .bg-left-bloc:before {
+        content: "";
+        background-image: url("../" + $bgBottomHeader);
+        background-repeat: no-repeat;
+        background-position: left top;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+      }
+
+      #hobbies:before {
+        content: "";
+        background-image: url("../" + $bgBottomHobbies);
+        background-repeat: no-repeat;
+        background-position: left top;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
     }
+
+    .right-bloc {
+      #bottom-bloc-right:before {
+        content: "";
+        background-image: url("../" + $bgBottomRightBloc);
+        background-repeat: no-repeat;
+        background-position: left top;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+      }
+    }
+  }
+
+  .text-object {
+    margin: 10px 5px;
+  }
+
+  footer {
+    .footer-print {
+      display: none;
+    }
+  }
+
+  .icon-bottom-bloc-right {
+    position: absolute;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
+  header {
+    background-color: $bg-color-2;
 
-    .title {
-        font-size: 1.2rem;
-
-        .icon-title {
-            width: 30px;
-            height: 30px;
-            margin: 0 20px 0 0;
-        }
-    }
-
-    .text{
-        margin: 0 30px 0 30px;
+    .bg-header {
+      justify-content: center;
+      height: 100%;
+      flex-direction: column;
     }
 
     .name {
-        font-size: 2rem;
+      margin: 20px 0;
     }
+  }
 
-    .bg-icon {
-        margin: 0 5px;
+  .left-bloc,
+  #home {
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .footer-print {
+    position: absolute;
+  }
+
+  #bottom-bloc-right,
+  .left-bloc::before {
+    display: none;
+  }
+
+  .bg-left-bloc {
+    margin-top: 20px;
+  }
+
+  .bg-header,
+  .right-bloc {
+    align-items: center;
+  }
+
+  footer {
+    justify-content: flex-end;
+  }
+
+  #hobbies {
+    height: 120px;
+  }
+
+  .charts-group {
+    width: 100%;
+    max-width: 500px;
+
+    .charts {
+      max-width: 100px;
+      width: 5rem;
+      max-height: 100px;
+      height: 5rem;
+      border-width: 15px;
+
+      h2 {
+        font-size: 0.8rem;
+      }
     }
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .circle {
+    margin-top: 10px;
+  }
+
+  footer {
+    height: 50px;
+  }
+
+  .footer-print {
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+  .other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 1.2rem;
+
+    .icon-title {
+      width: 30px;
+      height: 30px;
+      margin: 0 20px 0 0;
+    }
+  }
+
+  .text {
+    margin: 0 30px 0 30px;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .bg-icon {
+    margin: 0 5px;
+  }
 }
 
 @media screen and (max-width: 440px) {
-    .other {
-        .charts-group {
-            max-width: 350px !important;
-        }
+  .other {
+    .charts-group {
+      max-width: 350px !important;
     }
+  }
 }

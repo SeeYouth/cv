@@ -1,9 +1,10 @@
 import React from "react";
+
 import { iconWhoAmI } from "../utils/FontAwesome";
 
 const WhoAmI = () => {
   return (
-    <div>
+    <>
       <div className="title">
         <div className="icon-title">{iconWhoAmI}</div>
         <h1>qui suis-je ?</h1>
@@ -18,7 +19,7 @@ const WhoAmI = () => {
           lancer dans l'apprentissage du développement web.{" "}
         </p>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,49 +1,39 @@
 //-----  BACKGROUND BAR SKILLS  -----//
 
-@each 
-    $name-bar,
-    $to,
-    $grad-color-1, 
-    $grad-color-2, 
-    $grad-width-1, 
-    $grad-width-2 
-    
-    in $bar {
-        .bar-#{$name-bar} {
-            display: flex;
-            align-items: center;
-            font-size: 15px;
-            height: 27px;
-            background: 
-            linear-gradient(
-                to $to, 
-                $grad-color-1 $grad-width-1,
-                $grad-color-2 $grad-width-2
-            );
+@each $name-bar, $to, $grad-color-1, $grad-color-2, $grad-width-1,
+  $grad-width-2 in $bar
+{
+  .bar-#{$name-bar} {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+    background: linear-gradient(
+      to $to,
+      $grad-color-1 $grad-width-1,
+      $grad-color-2 $grad-width-2
+    );
 
-            & .text-bar {
-                margin-left: 10px;
-            }
-        }
+    & .text-bar {
+      margin-left: 10px;
+      color: $text-color-1;
     }
+  }
+}
 
 //-----  CHARTS DONUT  -----//
 
-@each 
-    $chart,
-    $left,
-    $right,
-    $bottom,
-    $top
-
-    in $charts {
-    .chart-#{$chart} {
-        border: 20px solid;
-        border-radius: 50%;
-        transform: rotate(45deg);    
-        border-left-color: $left;
-        border-right-color: $right;
-        border-bottom-color: $bottom;
-        border-top-color: $top;
-    }
+@each $chart, $left, $right, $bottom, $top in $charts {
+  .chart-#{$chart} {
+    border: 20px solid;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    border-left-color: $left;
+    border-right-color: $right;
+    border-bottom-color: $bottom;
+    border-top-color: $top;
+  }
 }

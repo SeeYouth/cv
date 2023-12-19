@@ -1,45 +1,63 @@
 .bg-icon {
-    border: 5px solid white;
-    background-color: white;
-    width: 25px;
-    height: 25px;
+  border: 5px solid $text-color-1;
+  background-color: $text-color-1;
+  width: 25px;
+  height: 25px;
 }
 
 .bg-icon,
 .telescope {
-    color: $text-color-2;
+  color: $text-color-2;
 }
 
 .bg-hobbies {
-    font-size: 40px;
-    width: 50px;
-    height: 50px;
-} 
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+}
 
-.icon-title,
-.bg-icon {
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 20px;
+.bg-icon,
+.icon-title {
+  display: inline-block;
+  text-align: center;
+}
+
+.bg-icon,
+.bg-icon-skill,
+.icon-title {
+  border-radius: 50%;
+}
+
+.bg-icon-skill {
+  margin-left: 5px;
+  color: $bg-color-1;
+  background-color: $bg-color-3;
+}
+
+.bg-icon,
+.icon-title {
+  margin: 0 20px;
 }
 
 .icon-title {
-    color: $text-color-1;
-    background-color: $text-color-3;
-    width: 50px;
-    height: 50px;
+  color: $text-color-1;
+  background-color: $text-color-3;
+  width: 50px;
+  height: 50px;
 
-    & .svg-inline--fa {
-        vertical-align: -0.35em;
-    }
+  & .svg-inline--fa {
+    vertical-align: -0.35em;
+  }
 }
 
 .svg-inline--fa {
-    vertical-align: -0.25em;
+  vertical-align: -0.25em;
 }
 
 .icon-subtitle {
-    font-size: 25px;
+  font-size: 25px;
 }
 
+.svgIconSkill {
+  margin: 2px 0;
+}

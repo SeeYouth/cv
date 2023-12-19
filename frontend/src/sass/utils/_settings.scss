@@ -1,233 +1,47 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.circle,
 .error,
-.text-title-error,
 .icon-close,
-.circle {
+.text-title-error {
   position: absolute;
 }
 
 .bg-point-icon-info,
 .bloc-error,
-footer,
-.page-pdf,
 #bottom-bloc-right,
+.circle,
+footer,
+header,
 #hobbies,
 .left-bloc,
-header,
-.circle,
-.little-round {
+.little-round,
+.page-pdf {
   position: relative;
-}
-
-//----------  FLEX  ----------//
-
-.text-error-page,
-.iconPrint,
-#hobbies,
-footer,
-.charts-group,
-.charts,
-.charts h2,
-.all-circle,
-.subtitle,
-.title,
-.text-hobbies,
-.body,
-section,
-main,
-.bg-left-bloc,
-.bg-left-bloc h1,
-header,
-.name,
-.bg-header {
-  display: flex;
-}
-
-.charts-group,
-.all-circle {
-  flex-flow: row wrap;
-}
-
-.text-error-page,
-.subtitle,
-.title,
-main {
-  flex-flow: row nowrap;
-}
-
-.text-error-page,
-#hobbies,
-.name {
-  align-items: flex-start;
-}
-
-.iconPrint,
-footer,
-.charts-group,
-.charts,
-.charts h2,
-.all-circle,
-.subtitle,
-.title,
-.text-hobbies,
-.bg-left-bloc h1 {
-  align-items: center;
-}
-
-.bg-header {
-  justify-content: flex-end;
-}
-
-footer,
-.charts-group,
-.charts,
-.charts h2,
-.text-hobbies,
-.body,
-.bg-left-bloc h1,
-.name {
-  justify-content: center;
-}
-
-.all-circle,
-#hobbies {
-  justify-content: space-around;
-}
-
-footer,
-.right-bloc,
-.text-hobbies,
-.bg-left-bloc {
-  flex-direction: column;
-}
-
-.bg-header {
-  flex-direction: row;
-}
-
-//----------  WIDTH  ----------//
-
-.telescope {
-  width: 50px;
-}
-
-.all-circle {
-  width: 90%;
-}
-
-.bloc-error,
-#root {
-  width: 100vw;
-}
-
-.page-pdf,
-.bloc-error,
-footer,
-.bloc-text,
-section,
-main,
-.bg-left-bloc,
-header,
-.bg-header {
-  width: 100%;
-}
-
-.circle {
-  width: 300px;
-}
-
-.charts-group {
-  width: 600px;
-}
-
-.left-bloc {
-  width: 400px;
-}
-
-.little-round {
-  width: 50px;
-}
-
-//----------  HEIGHT  ----------//
-
-// .bloc-error {
-//     height: 600px;
-// }
-
-.bloc-error {
-  height: 100vh;
-}
-
-#home,
-.left-bloc,
-.bg-left-bloc,
-.bg-header {
-  height: 100%;
-}
-
-#bottom-bloc-right {
-  height: 202px;
-}
-
-#hobbies {
-  height: 201px;
-}
-
-// #root {
-//     min-height: 100vh;
-// }
-
-.telescope {
-  height: auto;
-}
-
-.little-round {
-  height: 50px;
-}
-
-.circle,
-.circle2,
-.circle2-1,
-.circle2-2,
-.circle2-3,
-.circle2-4 {
-  height: 300px;
 }
 
 //----------    COLOR    ----------//
 
-footer,
 .bg-left-bloc,
+footer,
 .name {
   color: $text-color-1;
 }
 
-//----------  BACKGROUND  ----------//
-//----------    COLOR    ----------//
-
-.bloc-error,
-body {
-  background-color: $bg-color-1;
-}
-
-header {
-  background-color: transparent;
-}
-
-footer,
-.left-bloc,
-.bg-left-bloc {
-  background-color: $bg-color-2;
-}
-
-.bg-left-bloc h1 {
-  background-color: $bg-color-4;
-}
-
 //----------     BOX     ----------//
 
-.bloc-text,
-section,
 .bg-left-bloc,
-.left-bloc {
+.bloc-text,
+.left-bloc,
+section {
   box-sizing: border-box;
+}
+
+//----------   MARGIN    ----------//
+
+.title-format {
+  padding: 5px 0 4px 0;
 }

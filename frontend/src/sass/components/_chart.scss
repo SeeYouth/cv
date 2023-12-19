@@ -1,7 +1,7 @@
 .charts {
     margin: 10px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 
     h2 {
         padding-bottom: 5px;
@@ -9,4 +9,8 @@
         height: 100%;
         transform: rotate(-45deg);
     }
+}
+
+.other {
+    padding-bottom: 2.5rem;
 }
