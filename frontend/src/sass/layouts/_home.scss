@@ -123,6 +123,7 @@
   }
 
   .left-bloc,
+  .left-text ul,
   #home {
     width: 100%;
   }
@@ -188,6 +189,11 @@
 
   .footer-print {
     position: absolute;
+  }
+
+  .text {
+    max-width: 500px;
+    justify-content: center;
   }
 }
 

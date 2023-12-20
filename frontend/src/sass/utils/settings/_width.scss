@@ -2,10 +2,6 @@
   width: 28px;
 }
 
-.svgIconSkill {
-  width: 44px;
-}
-
 .icon-title,
 .little-round,
 .telescope {
@@ -25,6 +21,7 @@
 .bg-left-bloc,
 .bloc-error,
 .bloc-text,
+.bloc-text ul li,
 footer,
 header,
 .left-subtitle,
@@ -49,4 +46,9 @@ section {
 
 .left-bloc {
   width: 400px;
+}
+
+.left-text,
+.text p {
+  max-width: 500px;
 }

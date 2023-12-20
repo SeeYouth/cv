@@ -10,6 +10,16 @@ const Experience = () => {
         <ul>
           <div className="left-subtitle subtitle">
             <div className="icon-subtitle"></div>
+            <h2>2020 - 2023 Diverses missions d'intérim</h2>
+          </div>
+          <li>Métallurgie</li>
+          <li>Travaux public</li>
+          <li>Etc...</li>
+        </ul>
+
+        <ul>
+          <div className="left-subtitle subtitle">
+            <div className="icon-subtitle"></div>
             <h2>2015 - 2020 gérant eirl</h2>
           </div>
           <li>Vente & maintenance de matériel informatique</li>
@@ -23,7 +33,7 @@ const Experience = () => {
             <h2>2014 - 2015 chef opérateur (lgv)</h2>
           </div>
           <ul>
-            <h3>Identification des câbles d’alimentation et de données</h3>
+            <h3>Identification des câbles</h3>
             <li>Création des outils de gestion</li>
             <li>Saisie & impression des identifiants</li>
           </ul>

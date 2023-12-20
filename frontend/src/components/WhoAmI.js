@@ -9,7 +9,7 @@ const WhoAmI = () => {
         <div className="icon-title">{iconWhoAmI}</div>
         <h1>qui suis-je ?</h1>
       </div>
-      <div className="text">
+      <div className="text text-whoAmI">
         <p>
           Même après 15 ans d'expérience dans ce domaine, l'informatique reste
           une passion qui résonne avec mon esprit autodidacte.{" "}
