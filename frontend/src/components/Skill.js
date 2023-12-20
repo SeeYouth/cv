@@ -14,7 +14,7 @@ const Skill = () => {
         {textSkillArray.map((textSkill, index) => (
           <li className="text-object">
             <ul>
-              <ul className="subtitle">
+              <ul className="right-subtitle subtitle">
                 <span key={index.id} className="bg-icon-skill">
                   {textSkill.icon}
                 </span>

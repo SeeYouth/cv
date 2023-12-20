@@ -6,13 +6,11 @@ const Experience = () => {
       <div className="bloc-text">
         <h1>expériences</h1>
       </div>
-      <div className="text">
+      <div className="left-text text">
         <ul>
-          <div className="subtitle">
+          <div className="left-subtitle subtitle">
             <div className="icon-subtitle"></div>
-            <h2>
-              <span>2015 - 2020</span>gérant eirl
-            </h2>
+            <h2>2015 - 2020 gérant eirl</h2>
           </div>
           <li>Vente & maintenance de matériel informatique</li>
           <li>Mise en place d’infrastructure réseau & du parc informatique</li>
@@ -20,11 +18,9 @@ const Experience = () => {
           <li>Initiation à l’outil informatique & ses logiciels</li>
         </ul>
         <ul>
-          <div className="subtitle">
+          <div className="left-subtitle subtitle">
             <div className="icon-subtitle"></div>
-            <h2>
-              <span>2014 - 2015</span>chef opérateur (lgv)
-            </h2>
+            <h2>2014 - 2015 chef opérateur (lgv)</h2>
           </div>
           <ul>
             <h3>Identification des câbles d’alimentation et de données</h3>
@@ -33,11 +29,9 @@ const Experience = () => {
           </ul>
         </ul>
         <ul>
-          <div className="subtitle">
+          <div className="left-subtitle subtitle">
             <div className="icon-subtitle"></div>
-            <h2>
-              <span>2008 - 2014</span>diverses missions d'intérim
-            </h2>
+            <h2>2008 - 2014 diverses missions d'intérim</h2>
           </div>
           <ul>
             <li>Travaux public</li>

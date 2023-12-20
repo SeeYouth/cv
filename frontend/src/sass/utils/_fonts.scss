@@ -40,6 +40,19 @@
   font-size: 30px;
 }
 
+.left-subtitle {
+  font-size: 15px;
+}
+
+.left-text {
+  li {
+    font-size: 0.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
+
 //----------  FONT WEIGHT  ----------//
 
 .bg-left-bloc h1,
@@ -66,9 +79,9 @@
   text-transform: uppercase;
 }
 
-.text {
-  text-align: justify;
-}
+// .text {
+//   text-align: justify;
+// }
 
 .charts h2 {
   text-align: center;
