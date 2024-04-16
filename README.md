@@ -9,20 +9,22 @@ Il intègre plusieurs bibliothèques JavaScript pour améliorer l'interface et l
 - **[React Router DOM](https://reactrouter.com/)**
 - **[Chart.js](https://www.chartjs.org/)**
 
+```Bash
 ## Installation en Local
 
 ### Cloner le dépôt
 
-- **git clone https://github.com/SeeYouth/cv.git**
-- **cd frontend**
+git clone https://github.com/SeeYouth/cv.git
+cd frontend
 
 ### Installer les dépendances
 
-- **npm install**
+npm install
 
 ### Lancer le projet
 
-- **npm start**
+npm start
+```
 
 ---
 
