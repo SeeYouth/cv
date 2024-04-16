@@ -1,6 +1,6 @@
 # CV
 
-- **Ce projet est un CV en ligne développé avec [React](https://reactjs.org/) et [SASS](https://sass-lang.com/).**
+- **Ce projet est mon CV en ligne développé avec [React](https://reactjs.org/) et [SASS](https://sass-lang.com/).**
 - **Il intègre plusieurs bibliothèques JavaScript pour améliorer l'interface et les fonctionnalités du site.**
 
 ## Bibliothèques Utilisées
