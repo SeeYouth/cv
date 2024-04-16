@@ -13,22 +13,16 @@ Il intègre plusieurs bibliothèques JavaScript pour améliorer l'interface et l
 
 ### Cloner le dépôt
 
-\```bash
-git clone https://github.com/SeeYouth/cv.git
-cd frontend
-\```
+- **git clone https://github.com/SeeYouth/cv.git**
+- **cd frontend**
 
 ### Installer les dépendances
 
-\```bash
-npm install
-\```
+- **npm install**
 
 ### Lancer le projet
 
-\```bash
-npm start
-\```
+- **npm start**
 
 ---
 
